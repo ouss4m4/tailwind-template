@@ -3,12 +3,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Lander from "../components/lander"
 import Features from "../components/features"
+import HowItWork from "../components/howitwork"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Revision 2.0" />
     <Lander />
     <Features />
+    <HowItWork />
   </Layout>
 )
 
