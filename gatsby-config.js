@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Revision 2.0 | Product Review`,
+    description: `The Natural Way to Supercharge and Maintain A Healthy Brain & Vision`,
     author: `@gatsbyjs`,
   },
   plugins: [
