@@ -3,22 +3,19 @@ import React from "react"
 function Features() {
   return (
     <section id="features" className="max-w-4xl mx-auto">
-      <div className="py-12 bg-white">
+      <div className="py-6 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-          <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Revision 2.0 Product Review
+            <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Revision 2.0 Ingredients
             </h1>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               A Natural way to treat tired eyes
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
+            <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
               ReVision 2.0 brings together a powerful mix of herbs and
               ingredients that have been carefully studied and work in synergy
               to bring powerful health benefits to your brain and vision.
-            </p>
-            <p className="mt-2 leading-8 font-bold tracking-tight text-gray-900 sm:text-xl">
-              Ingredients Details
             </p>
           </div>
 
@@ -54,7 +51,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     Huperzine-A
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     Huperzine- A is one of the most important ReVision 20
                     ingredients that come from a plant named Huperzia Serrata.
                     It has been extensively used in Chinese Medicine due to its
@@ -93,7 +90,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     Alpha GPC
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     Alpha GPC comes from the crushing of different plants such
                     as soy. Inside the brain, it focuses on producing more
                     acetylcholine which can provide users of the ReVision
@@ -133,7 +130,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     Phosphatidylserine
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     Among the most complex yet useful ReVision ingredients,
                     phosphatidylserine supports the health of the brain and
                     boosts many of its functions, including focus, memory,
@@ -173,7 +170,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     L-Theanine
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     L-theanine is an amino acid that tends to improve alertness
                     while maintaining a state of calmness in the body. According
                     to the current evidence, this ingredient can help relieve
@@ -217,7 +214,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     L-Tyrosine
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     L-tyrosine is a precursor substance used for the production
                     of several hormones like adrenaline, norepinephrine, and
                     dopamine, all of which can boost brain health in one way or
@@ -256,7 +253,7 @@ function Features() {
                   <dt className="text-lg leading-6 font-medium text-gray-900">
                     B Complex Vitamins
                   </dt>
-                  <dd className="mt-2 text-base text-gray-900">
+                  <dd className="mt-2 text-base text-gray-700 text-justify">
                     Vitamin B complex has been proven to provide a number of
                     benefits that collectively improve your body functions
                     greatly. With these vitamins in your ReVision pills, you can

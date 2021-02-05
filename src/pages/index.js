@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Revision 2.0" />
     <Lander />
-    <Features />
     <HowItWork />
+    <Features />
   </Layout>
 )
 
