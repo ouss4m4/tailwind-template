@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-scroll"
+import FluidImg from "../Image/FluidIMG"
 
 function Features() {
   return (
@@ -6,9 +8,14 @@ function Features() {
       <div className="py-6 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Revision 2.0 Ingredients
-            </h1>
+            <Link to="ingredients" smooth className="cursor-pointer">
+              <h1
+                id="ingredients"
+                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              >
+                Revision 2.0 Ingredients
+              </h1>
+            </Link>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               A Natural way to treat tired eyes
             </p>
@@ -228,6 +235,40 @@ function Features() {
                 </div>
               </div>
             </dl>
+          </div>
+          <div className="lg:text-center">
+            <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
+              Now the goal of this formula is to rectify the root cause of poor
+              eye sight, which supposedly has nothing to do with age. but, a
+              “deeply peculiar and dangerous enzyme” is deemed the culprit. this
+              enzyme triggers inflammation, which in turn deteriorates some of
+              the organs that are critical for eyesight.
+            </p>
+          </div>
+          <div className="max-w-xl mx-auto">
+            <FluidImg filename="Optic-ner" />
+            <p className="text-center text-gray-400 text-italic">
+              Optical Nerve{" "}
+            </p>
+          </div>
+
+          <div className="lg:text-center">
+            <Link to="benefits" smooth>
+              <h1
+                id="benefits"
+                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              >
+                Revision 2.0 Benefits
+              </h1>
+            </Link>
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              What are the benefits that you could expect, by using ReVision?{" "}
+            </p>
+            {/* <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
+              ReVision 2.0 brings together a powerful mix of herbs and
+              ingredients that have been carefully studied and work in synergy
+              to bring powerful health benefits to your brain and vision.
+            </p> */}
           </div>
         </div>
       </div>
