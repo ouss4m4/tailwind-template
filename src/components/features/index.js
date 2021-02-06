@@ -12,11 +12,11 @@ function Features() {
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               A Natural way to treat tired eyes
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
+            {/* <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
               ReVision 2.0 brings together a powerful mix of herbs and
               ingredients that have been carefully studied and work in synergy
               to bring powerful health benefits to your brain and vision.
-            </p>
+            </p> */}
           </div>
 
           <div className="mt-10">
@@ -33,22 +33,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900 ">
                     Huperzine-A
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">
@@ -72,22 +66,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900">
                     Alpha GPC
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">
@@ -112,22 +100,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900">
                     Phosphatidylserine
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">
@@ -152,22 +134,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900">
                     L-Theanine
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">
@@ -196,22 +172,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900">
                     L-Tyrosine
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">
@@ -235,22 +205,16 @@ function Features() {
                       stroke="currentColor"
                     >
                       <path
-                        strokeLineCap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLineCap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        strokeWidth={2}
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                       />
                     </svg>
                   </div>
                 </div>
                 <div className="ml-4">
-                  <dt className="text-lg leading-6 font-medium text-gray-900">
+                  <dt className="text-lg leading-6 font-bold text-gray-900">
                     B Complex Vitamins
                   </dt>
                   <dd className="mt-2 text-base text-gray-700 text-justify">

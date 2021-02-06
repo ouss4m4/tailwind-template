@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "react-scroll"
-
+import FluidIMG from "../Image/FluidIMG"
 function Lander() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -16,35 +16,38 @@ function Lander() {
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <div className="relative hidden lg:block pt-6 px-4 sm:px-6 lg:px-8">
             <nav
-              className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+              className="relative flex items-center justify-between sm:h-10 lg:justify-start "
               aria-label="Global"
             >
-              <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                <div className="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
+              <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0 ">
+                <div className="flex items-center w-full md:w-auto ">
+                  <a href="#" className="text-blue-700 ">
                     <span className="sr-only">Logo</span>
-                    <img
-                      className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg"
-                    />
+                    <svg
+                      className="h-10 w-10"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"
+                      />
+                    </svg>
                   </a>
+
+                  <h1 className="text-2xl tracking-tight font-bold text-blue-600 sm:text-2xl md:text-4xl m-0">
+                    Revision 2.0
+                  </h1>
                 </div>
               </div>
             </nav>
           </div>
-
-          {/*   <!--
-        Mobile menu, show/hide based on menu open state.
-
-        Entering: "duration-150 ease-out"
-          From: "opacity-0 scale-95"
-          To: "opacity-100 scale-100"
-        Leaving: "duration-100 ease-in"
-          From: "opacity-100 scale-100"
-          To: "opacity-0 scale-95"
-      --> */}
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
@@ -82,13 +85,11 @@ function Lander() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-
-        <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://www.biospectrumasia.com/uploads/articles/eye_problem-13046.jpg"
-          alt=""
-        />
+      <div
+        className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
+        style={{ height: "100%" }}
+      >
+        <FluidIMG filename="hero.png" />
       </div>
     </div>
   )

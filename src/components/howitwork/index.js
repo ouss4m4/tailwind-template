@@ -31,8 +31,8 @@ function HowItWork() {
               ReVision is a dietary supplement designed to enhance vision and
               brain health. The approach taken by the team entails delivering a
               rich source of brain nutrients, antioxidants, vitamins and
-              minerals complex. To better understand how ReVision works, it
-              makes the most sense to study the ingredients at hand.
+              minerals complex. To better understand how ReVision works, it is
+              only logical to go through the ingredients at hand.
             </p>
           </div>
         </div>
