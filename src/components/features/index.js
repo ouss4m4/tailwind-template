@@ -1,3 +1,6 @@
+/* TSL:   https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net/ */
+/* VSL:  https://656afdqdch7jzzcpqnwdpeuk37.hop.clickbank.net/?cbpage=1 */
+
 import React from "react"
 import { Link } from "react-scroll"
 import FluidImg from "../Image/FluidIMG"
@@ -251,7 +254,14 @@ function Features() {
               Optical Nerve{" "}
             </p>
           </div>
-
+          <div className="text-center">
+            <a
+              href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net"
+              className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
+            >
+              Order A Sample
+            </a>
+          </div>
           <div className="lg:text-center md:text-center">
             <Link to="benefits" smooth className="cursor-pointer">
               <h1
@@ -495,14 +505,14 @@ function Features() {
                 id="benefits"
                 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
               >
-                PROs & CONs
+                ReVision 2.0
               </h1>
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1">
             <div>
               <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl text-center">
-                ReVision 2.0 PROs
+                PROs
               </p>
               <ul className="pros">
                 <li>
@@ -526,7 +536,7 @@ function Features() {
             </div>
             <div>
               <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl text-center">
-                Revision 2.0 CONs
+                CONs
               </p>
               <p>
                 You must order your <strong>ReVision™</strong> pills at least
@@ -537,6 +547,23 @@ function Features() {
             </div>
           </div>
 
+          <div className="mx-auto max-w-xl">
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Do Not Miss The Limited Discount
+            </h2>
+            <a href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net/">
+              <FluidImg filename="discount-list.png" />
+            </a>
+
+            <div className="text-center">
+              <a
+                href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net/"
+                className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
+              >
+                Get The Discount Here
+              </a>
+            </div>
+          </div>
           <div className="mx-auto max-w-xl">
             <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Frequently Asked Questions{" "}
@@ -581,25 +608,65 @@ function Features() {
                 id="benefits"
                 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
               >
+                Watch The Official Video For More Details
+              </h1>
+              <a href="https://656afdqdch7jzzcpqnwdpeuk37.hop.clickbank.net/?cbpage=1">
+                <FluidImg filename="video.png" />
+              </a>
+            </div>
+            <div className="lg:text-center md:text-center">
+              <h1
+                id="benefits"
+                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              >
                 Conclusion
               </h1>
               <p className="text-justify">
                 <span className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl ">
                   Is it worth it ? Absolutely.
                 </span>{" "}
-                 Backed by a <em>No Question Asked </em> money back
-                guaranteed policy. You are either satisfied or refunded. The
-                supplement was prepared after exhaustive research and has
-                scientific studies to back up its claims. You can always
-                cross-check with your doctor before consuming it. Although the
-                results vary from person to person, the supplement works out for
-                most. However, if it doesn’t work, you can rest assured and rely
-                on the money-back guarantee.
+                Backed by a <em>No Question Asked </em> money back guaranteed
+                policy. You are either satisfied or refunded. The supplement was
+                prepared after exhaustive research and has scientific studies to
+                back up its claims. You can always cross-check with your doctor
+                before consuming it. Although the results vary from person to
+                person, the supplement works out for most. However, if it
+                doesn’t work, you can rest assured and rely on the money-back
+                guarantee.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <footer className="footer navbar-static-bottom">
+        <div className="flex flex-col">
+          <span className="self-center cursor-pointer ">
+            <Link to="lander" smooth duration={1000}>
+              <svg
+                className="w-6 h-6 "
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"
+                />
+              </svg>
+            </Link>
+          </span>
+          <hr />
+          <p className="footer__text">
+            © {new Date().getFullYear()} - The statements made within this
+            website have not been evaluated by the U.S. Food and Drug
+            Administration. These statements and the products of this company
+            are not intended to diagnose, treat, cure or prevent any disease.
+          </p>
+        </div>
+      </footer>
     </section>
   )
 }

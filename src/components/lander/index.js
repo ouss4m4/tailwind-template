@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 import FluidIMG from "../Image/FluidIMG"
 function Lander() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white" id="lander">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
