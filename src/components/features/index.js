@@ -634,6 +634,14 @@ function Features() {
                 doesn’t work, you can rest assured and rely on the money-back
                 guarantee.
               </p>
+              <div className="text-center">
+                <a
+                  href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net"
+                  className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
+                >
+                  Visit Official WebSite
+                </a>
+              </div>
             </div>
           </div>
         </div>
