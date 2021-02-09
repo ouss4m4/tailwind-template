@@ -12,12 +12,12 @@ function Features() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center md:text-center">
             <Link to="ingredients" smooth className="cursor-pointer">
-              <h1
+              <h2
                 id="ingredients"
-                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
                 Revision 2.0 Ingredients
-              </h1>
+              </h2>
             </Link>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               A Natural way to treat tired eyes
@@ -264,14 +264,14 @@ function Features() {
           </div>
           <div className="lg:text-center md:text-center">
             <Link to="benefits" smooth className="cursor-pointer">
-              <h1
+              <h2
                 id="benefits"
-                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
                 Revision 2.0 Benefits
-              </h1>
+              </h2>
             </Link>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 sm:text-2xl">
               What are the benefits that you could expect, by using ReVision?{" "}
             </p>
             {/* <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto text-justify">
@@ -501,19 +501,19 @@ function Features() {
 
           <div className="lg:text-center md:text-center">
             <Link to="benefits" smooth className="cursor-pointer">
-              <h1
+              <h2
                 id="benefits"
-                className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
-                ReVision 2.0
-              </h1>
+                ReVision 20
+              </h2>
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1">
             <div>
-              <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl text-center">
+              <h2 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl text-center">
                 PROs
-              </p>
+              </h2>
               <ul className="pros">
                 <li>
                   There is a tasty<strong> discount for you</strong> if you buy
@@ -535,9 +535,9 @@ function Features() {
               </ul>
             </div>
             <div>
-              <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl text-center">
+              <h2 className="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 sm:text-2xl text-center">
                 CONs
-              </p>
+              </h2>
               <p>
                 You must order your <strong>ReVision™</strong> pills at least
                 one week before your current stock gets depleted. Otherwise, you
@@ -569,9 +569,9 @@ function Features() {
               Frequently Asked Questions{" "}
             </h2>
 
-            <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+            <h2 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
               How long does it take to work?
-            </p>
+            </h2>
 
             <p className="mt-2 text-base text-gray-700 text-justify max-w-xl">
               This supplement has fast-acting and quick-absorbing ingredients.
@@ -580,9 +580,9 @@ function Features() {
               there's a 60-day money-back guarantee, so in case you aren't happy
               after 2 months have passed, you can claim a refund.
             </p>
-            <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+            <h2 className="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 sm:text-2xl">
               Where can i buy this supplement?
-            </p>
+            </h2>
 
             <p className="mt-2 text-base text-gray-700 text-justify max-w-xl">
               You can buy this supplement from the official website. The
@@ -592,9 +592,9 @@ function Features() {
               ReVision: $294 with free shipping and handling.
             </p>
 
-            <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+            <h2 className="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 sm:text-2xl">
               ReVision Supplements Side Effects and Dosage
-            </p>
+            </h2>
 
             <p className="mt-2 text-base text-gray-700 text-justify max-w-xl">
               All you need is just 2 small capsules of ReVision every morning
@@ -604,23 +604,23 @@ function Features() {
               supplement doesn't have side effects.
             </p>
             <div className="lg:text-center md:text-center">
-              <h1
+              <h2
                 id="benefits"
                 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
               >
                 Watch The Official Video For More Details
-              </h1>
+              </h2>
               <a href="https://656afdqdch7jzzcpqnwdpeuk37.hop.clickbank.net/?cbpage=1">
                 <FluidImg filename="video.png" />
               </a>
             </div>
             <div className="lg:text-center md:text-center">
-              <h1
+              <h2
                 id="benefits"
                 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
               >
                 Conclusion
-              </h1>
+              </h2>
               <p className="text-justify">
                 <span className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl ">
                   Is it worth it ? Absolutely.
