@@ -23,7 +23,10 @@ function Lander() {
             >
               <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0 ">
                 <div className="flex items-center w-full md:w-auto ">
-                  <a href="#" className="text-blue-700 ">
+                  <a
+                    href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D82cac172-dde3-47b1-b318-8d836d59d463..l%3D733a25dc-1df9-4349-8c2e-3da1eefca7e4..a%3D0..b%3D0"
+                    className="text-blue-700 "
+                  >
                     <span className="sr-only">Logo</span>
                     <svg
                       className="h-10 w-10"

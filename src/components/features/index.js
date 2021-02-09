@@ -256,7 +256,7 @@ function Features() {
           </div>
           <div className="text-center">
             <a
-              href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net"
+              href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D82cac172-dde3-47b1-b318-8d836d59d463..l%3D733a25dc-1df9-4349-8c2e-3da1eefca7e4..a%3D0..b%3D0"
               className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
             >
               Order A Sample
@@ -551,13 +551,13 @@ function Features() {
             <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Do Not Miss The Limited Discount
             </h2>
-            <a href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net/">
+            <a href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D82cac172-dde3-47b1-b318-8d836d59d463..l%3D733a25dc-1df9-4349-8c2e-3da1eefca7e4..a%3D0..b%3D0">
               <FluidImg filename="discount-list.png" />
             </a>
 
             <div className="text-center">
               <a
-                href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net/"
+                href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D82cac172-dde3-47b1-b318-8d836d59d463..l%3D733a25dc-1df9-4349-8c2e-3da1eefca7e4..a%3D0..b%3D0"
                 className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
               >
                 Get The Discount Here
@@ -636,7 +636,7 @@ function Features() {
               </p>
               <div className="text-center">
                 <a
-                  href="https://5af82me9j94m-zcnmmwrufyo4w.hop.clickbank.net"
+                  href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D82cac172-dde3-47b1-b318-8d836d59d463..l%3D733a25dc-1df9-4349-8c2e-3da1eefca7e4..a%3D0..b%3D0"
                   className="inline-block px-4 py-4 mx-2 my-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700  cursor-pointer"
                 >
                   Visit Official WebSite

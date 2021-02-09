@@ -69,7 +69,30 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script>
+        {`function bemobCb(params) {
+          var t = params.trackingDomain+'/click/';
+          var re = new RegExp(t+'?(\\d*)');
+          var e = document.querySelectorAll('a[href*="'+t+'"]');
+          for (var i = 0; i < e.length; i++) {
+              var ex = re.exec(e[i].href);
+              if (ex) {
+                  e[i].href = params.ctaSecureUrl.replace('%%OFFER_NUMBER%%', ex[1] || 1);
+              }
+          }
+        }`}
+      </script>
+      <script>
+        {`!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://o06vt.bemobtrcks.com/landing/82cac172-dde3-47b1-b318-8d836d59d463?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();`}
+      </script>
+      <noscript>
+        {`<img
+          src="https://o06vt.bemobtrcks.com/landing/82cac172-dde3-47b1-b318-8d836d59d463?rule=1&path=1&landing=1"
+          alt=""
+        />`}
+      </noscript>
+    </Helmet>
   )
 }
 
